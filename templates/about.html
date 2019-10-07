@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+
+{% extends "layout.html" %} {% block body %}
+<div class="jumbotron" style="margin-top: 20px">
+  <h1 class="display-4">Unbabel Fullstack Challenge</h1>
+  <p class="lead">
+    Build a very simple translation web app based on the
+    <a
+      href="https://developers.unbabel.com"
+      target="_blank"
+      style="color: #3141d9"
+    >
+      Unbabel API </a
+    >.
+  </p>
+  <hr class="my-4" />
+  <p>
+    An input field takes an English input and translates it to Spanish.<br />
+    When a new translation is requested it is added to the list below the input
+    field.<br />
+    Technologies: Python, Flask web framework, Bootstrap, PostgreSQL.
+  </p>
+  <a
+    class="btn btn-primary btn-lg"
+    href="/"
+    role="button"
+    style="background-color: #3141d9; border-color: #3141d9"
+    >Go to translator</a
+  >
+</div>
+{% endblock %}
